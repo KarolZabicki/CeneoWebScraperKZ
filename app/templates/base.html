@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Ceneo.pl Web Scraper</h1>
+    </header>
+    <section>
+        {% block content %}
+            <p>To jest plik bazowy.</p>
+        {% endblock content %}
+    </section>
+    <footer>
+        <p>Karol Żabicki, Uniwersytet Ekonomiczny w Krakowie</p>
+    </footer>
+</body>
+</html>
